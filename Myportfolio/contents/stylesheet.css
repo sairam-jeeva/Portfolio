@@ -1,0 +1,572 @@
+body{
+    background-color: black;
+}
+.header img{
+    height: 150px;
+    width: 100px;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+.header h1{
+    color:whitesmoke;
+    text-align:right;
+    position: relative;
+    margin-left:15%;
+    margin-top:10% ;
+}
+.headicon{
+  display: flex;
+  align-items:center; 
+  position:absolute;
+  left:10%;
+  justify-content: space-between;
+  gap: 50px;
+}
+.headicon :hover{
+  background-color: red;
+  border-radius: 40%;
+}
+.header h3{
+    color:whitesmoke;
+    text-align:right;
+}
+.header{
+    display:flex;
+    margin-right: auto;
+}
+.navbar{
+  display: flex;
+  position:fixed;
+  width: 100%;
+  right: 0%;
+  justify-content:space-around;
+  background: transparent;
+  backdrop-filter: blur(25px); 
+  z-index: 1;
+}
+.navbar button{
+  background-color: transparent;
+    width: 100px;
+    height: 90px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.navbar img{
+  width: 40%;
+  height: 40%;
+}
+.navbar h3{
+  color:whitesmoke;
+  margin-top: auto;
+}
+.navbar button:hover{
+  background-color: gold;
+  animation: pulse 0.5s;
+  
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  90% {
+    transform: scale(1);
+  }
+}
+
+.headerimg img{
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  float: right;
+  margin-top: 10%;
+  margin-right: 10%;
+  cursor: pointer;
+  scale: 1;
+}
+.profileimg{
+  color: aliceblue;
+}
+.profileimg.openprofile{
+  scale: 2;
+}
+.hometxt h2{
+  color:gold;
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-right: 30%;
+}
+.hometxt p{
+margin-left: 10%;
+color: antiquewhite;
+text-align:left;
+line-height: 4ch;
+font-size: larger;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.about h2{
+  color:gold;
+  text-align:center;
+  margin-right:40px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.about p{
+  margin-left: 32%;
+  color: antiquewhite;
+  text-align:left;
+  font-size: large;
+  line-height: 3.5ch;
+  font-size: larger;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.about img{
+  border-radius: 50%;
+  height: 475px;
+  width: 230px;
+  float:left;
+  margin-left: 150px;
+}
+.skills h2{
+  color:gold;
+  text-align:center;
+  margin-right:100px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.techni1 {
+  display: flex;
+}
+.techni2{
+  display: flex;
+}
+
+.skills h3{
+  color:grey;
+  font-weight: bolder;
+  text-align:center;
+  margin-right:10px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 2px;
+}
+.card{
+  margin-left: 200px;
+  scroll-margin-top: 8rem;
+  width: min(50%, 200px);
+  height: 250px;
+  background-color:grey;
+  border: 2x solid black;
+  padding: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+.card figcaption{
+  color:black;
+  text-align: center;
+  font-size: larger;
+  background-color:white;
+  width: 200px;
+  margin-left: 56px;
+}
+.card h2{
+  width: auto;
+ color: black;
+  margin-left: 100px;
+}
+.card img{
+  margin-left: 90px;
+  width: 130px;
+  height: 130px;
+}
+.card #comm{
+  margin-left: 130px;
+  align-items: center;
+}
+.card #comm img{
+  margin-left: 100px;
+  width: 130px;
+  height: 130px;
+}
+
+.card2{
+  margin-left: 150px;
+  scroll-margin-top: 8rem;
+  width: min(50%, 200px);
+  height: 250px;
+  background-color:grey;
+  border: 2x solid black;
+  padding: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+.card2 figcaption{
+  color:black;
+  text-align: center;
+  font-size: larger;
+  background-color:white;
+  width: 200px;
+  margin-left: 56px;
+}
+.card2 h2{
+  width: auto;
+ color: black;
+  margin-left: 100px;
+}
+.card2 img{
+  margin-left: 90px;
+  width: 130px;
+  height: 130px;
+  
+}
+.card3{
+  margin-left: 150px;
+  scroll-margin-top: 8rem;
+  width: min(50%, 200px);
+  height: 250px;
+  background-color:grey;
+  border: 2x solid black;
+  padding: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+.card3 figcaption{
+  color:black;
+  text-align: center;
+  font-size: larger;
+  background-color:white;
+  width: 200px;
+  margin-left: 56px;
+}
+.card3 h2{
+  width: auto;
+ color: black;
+  margin-left: 100px;
+}
+.card3 img{
+  margin-left: 90px;
+  width: 130px;
+  height: 130px;
+}
+.card:hover{
+  animation: heartbeat 0.5s infinite;
+  background-color: gold;
+}
+.card2:hover{
+  animation: heartbeat 0.5s infinite;
+  background-color: gold;
+}
+.card3:hover{
+  animation: heartbeat 0.5s infinite;
+  background-color: gold;
+}
+.card4:hover{
+  animation: heartbeat 0.5s infinite;
+  background-color: gold;
+}
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.card5:hover{
+  animation: pulse 0.5s;
+  background-color: gold;
+}
+.card6:hover{
+  animation: pulse 0.5s;
+  background-color: gold;
+}
+.card4{
+  margin-left: 200px;
+  scroll-margin-top: 8rem;
+  width: min(50%, 200px);
+  height: 250px;
+  background-color:grey;
+  border: 2x solid black;
+  padding: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+.card4 figcaption{
+  color:black;
+  text-align: center;
+  font-size: larger;
+  background-color:white;
+  width: 200px;
+  margin-left: 45px;
+}
+.card4 h2{
+  width: auto;
+ color: black;
+  margin-left: 100px;
+}
+.card4 img{
+  margin-left: 90px;
+  width: 130px;
+  height: 130px;
+}
+
+.card5{
+  margin-left: 150px;
+  scroll-margin-top: 8rem;
+  width: min(50%, 200px);
+  height: 250px;
+  background-color:grey;
+  border: 2x solid black;
+  padding: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+.card5 figcaption{
+  color:black;
+  text-align: center;
+  font-size: larger;
+  background-color:white;
+  width: 200px;
+  margin-left: 51px;
+}
+.card5 h2{
+  width: auto;
+ color: black;
+  margin-left: 100px;
+}
+.card5 img{
+  margin-left: 90px;
+  width: 130px;
+  height: 130px;
+}
+
+.card6{
+  margin-left: 150px;
+  scroll-margin-top: 8rem;
+  width: min(50%, 200px);
+  height: 250px;
+  background-color:grey;
+  border: 2x solid black;
+  padding: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+.card6 figcaption{
+  color:black;
+  text-align: center;
+  font-size: larger;
+  background-color:white;
+  width: 200px;
+  margin-left: 57px;
+}
+.card6 h2{
+  width: auto;
+ color: black;
+  margin-left: 100px;
+}
+.card6 img{
+  margin-left: 90px;
+  width: 130px;
+  height: 130px;
+}
+.chart {
+  box-sizing: border-box;
+  border-color: aliceblue;
+  margin-left:200px;
+  
+}
+.bar{
+    position: relative;
+    width: 95%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.bar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background-image: linear-gradient(to left,gold,black);
+    animation: colorMove 2s linear infinite;
+    animation-direction: reverse;
+}
+
+@keyframes colorMove {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-80%); }
+}
+
+.chart h3{
+  color:silver;
+  font-weight: bolder;
+  text-align:left;
+  margin-right:2px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bar {
+  display: table-cell;
+  width: 100px;
+  height: 40px;
+  margin-left: 400px;
+  margin:none;
+}
+
+.value {
+  float: right;
+  font-size: 25px;
+  margin-top: 10px;
+  color:black;
+  text-align: center;
+}
+.edu h2{
+  color: gold;
+  text-align: center;
+}
+#myedu{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 70%;
+  margin-left: 100px;
+  border-style: inset;
+  border-style: outset;
+  border-inline-start-color:gold;
+  border-inline-end-color:gold;
+ 
+}
+
+#myedu td, #myedu th {
+  padding: 5px;  
+}
+#myedu td{
+  height: 100px;
+}
+#myedu tr{
+  background-color: grey;
+}
+#heading th:hover{background-color:grey;color:gold;}
+#myedu tr:hover :nth-child(even) {background-color:gold; color: black;}
+#myedu tr:hover :nth-child(odd) {background-color:black;color: white;}
+
+#myedu th {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+#contact h1{
+  color:gold;
+  margin-left: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+#contact p{
+  color: white;
+  margin-left: 5px;
+  font-size: large;
+  text-align: left;
+  line-height: 3.5ch;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact img{
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  margin-left: 10px;
+  align-items: center;
+}
+ .color-motion {
+            position: relative;
+            width: 95%;
+            height: 400px;
+            overflow: hidden;
+        }
+
+        .color-motion::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200%;
+            height: 100%;
+            background-image: linear-gradient(to right,gold, black);
+            animation: colorMove 2s linear infinite;
+        }
+
+        @keyframes colorMove {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-80%); }
+        }
+        .contact p{
+      color: whitesmoke;
+      position: relative;
+      z-index: 1;
+      font-size:25px;
+      }
+      .contact a{
+        color: whitesmoke;
+      }
+      .contact-section {
+        text-align: center;
+    }
+    
+    .contact-section h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    .contact-form {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contact-form input[type="text"],
+    .contact-form textarea {
+      background-color: goldenrod;
+      color: whitesmoke;
+        width: 400px;
+        height: 20px;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+  .youremail{
+    background-color: goldenrod;
+    color:red;
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+    .contact-form textarea {
+        height: 100px;
+    }
+    
+    .contact-form button {
+        padding: 10px 20px;
+        background-color: goldenrod;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
